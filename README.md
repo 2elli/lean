@@ -1,16 +1,3 @@
-# About
-
-After having used [prompt pure](https://github.com/sindresorhus/pure) for about a year, I felt that
-a two-line prompt was not for me. Also not utilizing the right side of the terminal seemed a missed
-opportunity. Still there is much to like: the elapsed time of a process, the coloring of the prompt
-if the exit code of the process isn't 0, git integration. So I took "pure", mixed in my ideas of
-what a prompt should look like and came up with "lean" - a 1 line prompt that stays out of your
-face.
-
-When lean starts, only 2 characters show on the screen '%' on the left and '~' on the right.
-
-![lean example gif](https://github.com/miekg/lean/blob/master/lean.gif "Example Session Using Lean")
-
 So lean is an evolution of pure, with the following changes:
 
 *   Defaults to a very sparse setup, only showing information you need at the moment.
